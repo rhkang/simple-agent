@@ -1,0 +1,28 @@
+{
+  "type": "object",
+  "properties": {
+    "expression": {
+      "type": "string",
+      "description": "The expression most fit to shifty's current state."
+    },
+    "actions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "A list of Shifty's current physical movements, gestures, or visual descriptions."
+    },
+    "fatigue_level": {
+      "type": "integer",
+      "description": "An integer from 1 to 100 indicating Shifty's current fatigue level."
+    },
+    "currency": {
+      "type": "integer",
+      "description": "An integer representing the amount of in-game currency Shifty currently has."
+    },
+    "mood": {
+      "type": "string",
+      "description": "A brief description of Shifty's current mood."
+    }
+  }
+}

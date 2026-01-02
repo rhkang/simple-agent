@@ -1,0 +1,7 @@
+[project]
+name = "test"
+version = "0.1.0"
+description = "A simple multi-turn session test"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["aiohttp>=3.9.0", "claude-agent-sdk", "typer>=0.9.0", "rich>=13.0.0"]
